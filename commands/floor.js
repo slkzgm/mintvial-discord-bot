@@ -26,10 +26,10 @@ module.exports = {
     });
     await interaction.reply('Collections floor prices:\n' +
       '```\n' +
-      '-----------------------------------------------\n' +
+      '-----------------------------------\n' +
       '| COLLECTION  | MINTVIAL | CLONEX |\n' +
       `| FLOOR PRICE |   ${mintvial} | ${clonex} |\n` +
-      '-----------------------------------------------\n' +
+      '-----------------------------------\n' +
       '```' +
       `Last successfull update: <t:${lastUpdate}:R>`
     );

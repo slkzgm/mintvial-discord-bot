@@ -32,7 +32,7 @@ You can also host the bot by yourself following these steps:
 {
   "token": YOUR_TOKEN,
   "clientId": YOUR_CLIENT_ID,
-  "apiUrl": "https://www.slkzgm.com/mintvial/" // OR USE YOUR OWN API,
+  "apiUrl": "https://www.slkzgm.com/mintvial/" // OR USE YOUR OWN API
 }
 ```
 
