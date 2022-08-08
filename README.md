@@ -36,10 +36,11 @@ You can also host the bot by yourself following these steps:
 }
 ```
 
+7 `optional`: If you have edit commands name, descriptions, or creating new ones, you will have to run `node deploy-commands.js`
+
 6: run the discord bot: `node .`
 
 # Screenshots:
 
-![image](https://user-images.githubusercontent.com/105301169/167681233-55096972-b16e-44c2-a65a-76e7977b27a1.png)
-![image](https://user-images.githubusercontent.com/105301169/167682627-688c9173-ebc2-4156-bc68-bab0a3732d77.png)
-
+![image](https://user-images.githubusercontent.com/105301169/183384432-d565ba5e-de3e-4adb-80ad-2c1f18558ff0.png)
+![image](https://user-images.githubusercontent.com/105301169/183384545-c8cf97fc-c03c-4197-b261-8276b414cce1.png)
