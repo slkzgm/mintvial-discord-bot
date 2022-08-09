@@ -1,7 +1,7 @@
 # mintvial-discord-bot
 A discord bot to get informed of live data of CloneX - Mintvial reveal process
 
-This discord bot use a js script that scrap Opensea and 0xReservoir API every minute to retrieve data regarding Mintvial reveal process.
+This discord bot use the https://slkzgm.com API to retrieve and display data regarding CloneX - Mintvial reveal process.
 It comes with commands that give various informations and analytics about the reveal process state live state like:
 - Actual revealed distribution
 - Collections floor price
