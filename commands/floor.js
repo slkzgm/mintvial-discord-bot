@@ -11,7 +11,6 @@ module.exports = {
     .setDescription('Replies with collections floor prices.'),
   async execute(interaction) {
     const data = (await axios.get(apiUrl + commandName)).data;
-    const lastUpdate = (await axios.get(apiUrl)).data.lastUpdate.toString().slice(0, 10);
     let clonex, mintvial;
 
     data.map(collection => {
@@ -30,8 +29,7 @@ module.exports = {
       '| COLLECTION  | MINTVIAL | CLONEX |\n' +
       `| FLOOR PRICE |   ${mintvial} | ${clonex} |\n` +
       '-----------------------------------\n' +
-      '```' +
-      `Last successfull update: <t:${lastUpdate}:R>`
+      '```'
     );
   }
 };
