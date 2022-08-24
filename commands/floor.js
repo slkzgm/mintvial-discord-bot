@@ -15,10 +15,10 @@ module.exports = {
 
     data.map(collection => {
       switch (collection.collection) {
-        case 'cloneX':
+        case 'clones':
           clonex = valuesHandler(collection.floorPrice.toFixed(2), 6);
           break;
-        case 'mintVial':
+        case 'mintvials':
           mintvial = valuesHandler(collection.floorPrice.toFixed(2), 6);
           break;
       }
